@@ -1,0 +1,36 @@
+{
+  "name": "euler-method",
+  "version": "1.0.0",
+  "description": "NPM package for approximating differential equations (using Euler's method)",
+  "main": "index.js",
+  "dependencies": {
+    "euler-method": "^1.0.0",
+    "mathjs": "^11.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zo-Bro-23/euler-method.git"
+  },
+  "keywords": [
+    "euler",
+    "method",
+    "math",
+    "derivative",
+    "roots",
+    "function",
+    "differential",
+    "equation"
+  ],
+  "author": "Zohan Subhash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zo-Bro-23/euler-method/issues"
+  },
+  "homepage": "https://github.com/Zo-Bro-23/euler-method#readme",
+  "publishConfig": {
+    "tag": "latest"
+  }
+}

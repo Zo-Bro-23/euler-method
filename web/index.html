@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Euler Method</title>
+</head>
+
+<body>
+    <div class="w3-card-4">
+        <div class="w3-container w3-green">
+            <h2 style="text-align: center;">Euler's Method</h2>
+        </div>
+        <br>
+        <form class="w3-container" style="text-align: center; margin-left: 25%; margin-right: 25%;">
+            <label>Enter function (omit the <code>y'</code>):</label>
+            <br>
+        </form>
+        <form class="w3-container" style="text-align: center; margin-left: 43%; margin-right: 43%;">
+            <input id="text" class="w3-input" width="25%" placeholder="y"></textarea>
+            <br>
+        </form>
+        <form class="w3-container" style="text-align: center; margin-left: 25%; margin-right: 25%;">
+            <label>Enter initial value (for <code>x</code>):</label>
+            <br>
+        </form>
+        <form class="w3-container" style="text-align: center; margin-left: 43%; margin-right: 43%;">
+            <input id="initial-x" class="w3-input" width="25%" placeholder="0"></textarea>
+            <br>
+        </form>
+        <form class="w3-container" style="text-align: center; margin-left: 25%; margin-right: 25%;">
+            <label>Enter initial value (for <code>y</code>):</label>
+            <br>
+        </form>
+        <form class="w3-container" style="text-align: center; margin-left: 43%; margin-right: 43%;">
+            <input id="initial-y" class="w3-input" width="25%" placeholder="1"></textarea>
+        </form>
+        <br>
+        <form class="w3-container" style="text-align: center; margin-left: 25%; margin-right: 25%;">
+            <label>Enter <code>x</code> value for which the function needs to be calculated (will output <code>y</code> value at that particular <code>x</code> value):</label>
+            <br>
+        </form>
+        <form class="w3-container" style="text-align: center; margin-left: 43%; margin-right: 43%;">
+            <input id="final" class="w3-input" width="25%" placeholder="0.3"></textarea>
+        </form>
+        <br>
+        <form class="w3-container" style="text-align: center; margin-left: 25%; margin-right: 25%;">
+            <label>Iterations to perform:</label>
+            <br>
+        </form>
+        <form class="w3-container" style="text-align: center; margin-left: 43%; margin-right: 43%;">
+            <input id="iterations" class="w3-input" width="25%" placeholder="100"></textarea>
+            <br>
+        </form>
+        <form class="w3-container" style="text-align: center; margin-left: 25%; margin-right: 25%;">
+            <button id="button" type="button" class="w3-btn w3-padding w3-blue" style="width:120px">Run
+                &nbsp;></button>
+            <button id="cleartext" type="button" class="w3-btn w3-padding w3-teal" style="width: 120px">Clear
+                text</button>
+        </form>
+    </div>
+    <div class="w3-card-4" style="text-align: center;">
+        <h3 id="result"></h3>
+    </div>
+    <div class="w3-card-4" style="text-align: center;">
+        <h5>Functions of the form <code>y' = f(x, y)</code> can be entered, where <code>y</code> is an implicit function of <code>x</code> and <code>f(x, y)</code> is a function
+        of both <code>x</code> and <code>y</code>. Ommit the <code>y'</code> when entering the function.</h5>
+        <h3>Examples for functions you can enter:</h3>
+        <dl>
+            <dt>x^2</dt>
+            <dt>y</dt>
+            <dt>2y-x</dt>
+            <dt>See <a href="https://mathjs.org/docs/expressions/syntax.html">here</a> for more</dt>
+        </dl>
+    </div>
+</body>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="bundle.js"></script>
+
+</html>
